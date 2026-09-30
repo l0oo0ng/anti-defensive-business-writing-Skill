@@ -1,0 +1,31 @@
+{
+  "repository": "l0oo0ng/anti-defensive-business-writing-Skill",
+  "kind": "skill",
+  "version": "0.1.0-rc.1",
+  "version_source": {
+    "path": "VERSION",
+    "kind": "text"
+  },
+  "tag_prefix": "v",
+  "baseline": "f78ae65b4fabe201bb19fd36f0625a2c907ce8aa",
+  "include": [
+    "README.md",
+    "README.en.md",
+    "CHANGELOG.md",
+    "CHANGELOG.zh-CN.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "docs/repository-standardization",
+    "scripts/repository_release.py",
+    "VERSION",
+    "skills"
+  ],
+  "exclude": [],
+  "checks": [
+    "python scripts/repository_release.py check"
+  ],
+  "limitations": [
+    "不能编造客户、收入、合同或成果；结构检查不代表真实模型写作效果评测。 / No fabricated customers, revenue, contracts or achievements; structural checks are not live-model quality evaluation."
+  ],
+  "extra_artifacts": []
+}
